@@ -1,0 +1,98 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-content {
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  background: white;
+  width: 100%;
+border: skyblue solid 1px;  
+
+}
+
+.slide-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.slide-content p {
+  font-size: 16px;
+  clolor:black;
+}
+
+.zone {
+  margin-bottom: 20px;
+  text-align: center;
+  text-justify:
+}
+
+h2:hover{
+  font-size: 30px bold;
+  margin-bottom: 10px;
+  border: skyblue 1px solid;
+  width: auto;
+  color: white;
+  background: skyblue;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  margin-bottom: 5px;
+  text-align: justify-all;
+  font-size: 20px;
+}
+
+
+
+.sous-titres li.square:before {
+  content: "■";
+}
+
+.sous-titres li.diamond:before {
+  content: "♦";
+}
+
+.sous-titres li.arrow:before {
+  content: "➤";
+}
+
+.sous-titres li.heart:before {
+  content: "❤";
+}
