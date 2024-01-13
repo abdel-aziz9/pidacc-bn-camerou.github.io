@@ -2,7 +2,7 @@
 .nav li ul.sub-menu {
     display: none; /* Masque les sous-menus par défaut */
     position: absolute;
-    background-color: #ffffff; /* Couleur de fond du sous-menu (blanc) */
+   /* Couleur de fond du sous-menu (blanc) */
     padding: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre du sous-menu */
     border-radius: 5px; /* Bordures arrondies */
