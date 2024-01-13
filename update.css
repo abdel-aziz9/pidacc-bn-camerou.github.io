@@ -1,0 +1,36 @@
+/* Styles pour les sous-menus */
+.nav li ul.sub-menu {
+    display: none; /* Masque les sous-menus par défaut */
+    position: absolute;
+     /* Couleur de fond du sous-menu (blanc) */
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre du sous-menu */
+    border-radius: 5px; /* Bordures arrondies */
+}
+
+.nav li:hover > ul.sub-menu {
+    display: block; /* Affiche le sous-menu au survol */
+}
+
+.nav li ul.sub-menu li {
+    margin: 5px 0; /* Espacement entre les éléments de la sous-liste */
+}
+
+.nav li ul.sub-menu li a {
+    color:bla; /* Couleur du texte de la sous-liste (vert clair) */
+    text-decoration: none;
+    border-radius: 5px; /* Bordures arrondies */
+}
+
+.nav li ul.sub-menu li a:hover {
+    background-color: #66ff66; /* Couleur de fond de la sous-liste au survol (vert clair) */
+    color: #ffffff; /* Couleur du texte de la sous-liste au survol (blanc) */
+}
+
+/* Styles pour la flèche de déroulement */
+.nav li:has(ul.sub-menu) > a::after {
+    content: "\25BE"; /* Utilise une flèche vers le bas comme indicateur */
+    display: inline-block;
+    margin-left: 5px;
+    color: #66ff66; /* Couleur de la flèche (vert clair) */
+}

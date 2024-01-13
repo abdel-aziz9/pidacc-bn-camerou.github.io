@@ -864,19 +864,19 @@ Banner Style
   top: 100px;
   width: 212px;
   height: 653px;
-  z-index: -1;
+  
 }
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-dec-right.png);
+  background-image: url(../images/banner-dec-right11.png);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
   top: 100px;
   width: 1159px;
   height: 797px;
-  z-index: -1;
+  
 }
 
 .main-banner .left-content {
@@ -901,7 +901,7 @@ Banner Style
 
 .main-banner .left-content h2 {
   border-top: 1px solid #eee;
-  margin-top: 30px;
+
   padding-top: 20px;
   margin-bottom: 45px;
   font-size: 60px;
