@@ -242,9 +242,9 @@ tr:nth-child(odd) {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
     position: relative;
-  top: -780px;
+  top: -500px;
 }
 
 .logo1 {
