@@ -57,7 +57,7 @@
                     <!-- ** Logo End ** -->
                     <!-- ** Menu Start ** -->
                     <ul class="nav">
-                        <li class="scroll-to-section"><a href="index.html" class="active">Accueil</a></li>
+                        <li class="scroll-to-section"><a href="index.html" >Accueil</a></li>
                         <li class="scroll-to-section">
                             <a >projets</a>
                             <ul class="sub-menu">
@@ -78,11 +78,12 @@
                             </ul>
                         </li>
                         <li class="scroll-to-section">
-                            <a>Documentations</a>
+                            <a class="active">Documentations</a>
                               <ul class="sub-menu">
                                 <li><a href="document.html">Rapports d'Activités</a></li>
                                 <li><a href="document.html">Les conventions</a></li>
-                                <li><a href="personel.html">personnel</a></li>
+                                <li><a href="personel.html" class="active">personnel</a></li>
+                                <li><a href="personel.html">Coordonateur</a></li>
                                 
                                 <li></li>
                             </ul>
@@ -117,9 +118,7 @@
                                         <h2>Personnel</h2>
                                     </div>
                                     <div class="col-lg-12">
-                                        <div class="main-green-button scroll-to-section">
-                                            <a href="#contact">contacter nous </a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +189,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="icon">
-                                    <img src="assets/images/femme.jpg" alt="">
+                                    <img src="assets/images/businessman.png" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-8">
@@ -245,7 +244,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="icon">
-                                    <img src="assets/images/businessman.png" alt="">
+                                    <img src="assets/images/femme.jpg" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-8">
@@ -381,7 +380,7 @@
 
         var formattedMessage = 'Nom: ' + name + '\n\nPrénom: ' + surname + '\n\nE-mail: ' + email + '\n\nSujet: ' + subject + '\n\nMessage: ' + message;
 
-        var phoneNumber = '237656337703'; // Remplacez par votre numéro de téléphone
+        var phoneNumber = '237699543736'; // Remplacez par votre numéro de téléphone
 
         var url = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(formattedMessage);
         window.location.href = url;

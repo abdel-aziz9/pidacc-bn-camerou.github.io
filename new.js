@@ -15,7 +15,7 @@ $(document).ready(function() {
     showSlide(currentIndex);
   }
 
-  setInterval(nextSlide, 3000); // Changer d'image toutes les 5 secondes
+  setInterval(nextSlide, 5000); // Changer d'image toutes les 5 secondes
 });
 
 // Utiliser jQuery pour ajouter un effet de déroulement

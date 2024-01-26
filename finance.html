@@ -57,12 +57,12 @@
                     <!-- ** Logo End ** -->
                     <!-- ** Menu Start ** -->
                     <ul class="nav">
-                        <li class="scroll-to-section"><a href="index.html" class="active">Accueil</a></li>
+                        <li class="scroll-to-section"><a href="index.html">Accueil</a></li>
                         <li class="scroll-to-section">
-                            <a >projets</a>
+                            <a  class="active">projets</a>
                             <ul class="sub-menu">
                                 <li class="scroll-to-section"><a href="composant.html">Composantes</a></li>
-                                <li class="scroll-to-section"><a href="finance.html">Beneficiaires</a></li>
+                                <li class="scroll-to-section"><a href="finance.html" class="active">Beneficiaires</a></li>
                                 <li></li>
                             </ul>
                         </li>
@@ -177,7 +177,6 @@
 
                         </ul>
                       </div> 
-                    <div class="main-green-button"><a href="Apropos.html">contacter nous</a></div>
                 </div>
             </div>
         </div>
@@ -196,7 +195,7 @@
                             <div class="col-lg-6 offset-lg-3">
                                 <div class="section-heading">
                                     <h6>Contact Us</h6>
-                                    <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Us</h2>
+                                    
                                 </div>
                             </div>
                             <div class="col-lg-9">
@@ -285,7 +284,7 @@
 
         var formattedMessage = 'Nom: ' + name + '\n\nPrénom: ' + surname + '\n\nE-mail: ' + email + '\n\nSujet: ' + subject + '\n\nMessage: ' + message;
 
-        var phoneNumber = '237656337703'; // Remplacez par votre numéro de téléphone
+        var phoneNumber = '237699543736'; // Remplacez par votre numéro de téléphone
 
         var url = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(formattedMessage);
         window.location.href = url;
