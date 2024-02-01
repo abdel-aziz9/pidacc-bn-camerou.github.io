@@ -24,9 +24,9 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="new.css">
     <link rel="stylesheet" href="update.css">
+    <link rel="stylesheet" href="galerie.css">
 
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 
 </head>
 
@@ -46,23 +46,27 @@
     <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ** Logo Start ** -->
                     <a href="index.html" class="logo">
-                        <img src="assets/images/logo.jpg" alt="" style="height:45px; position: absolute;width: 80px;top: 45px;border-radius:15px;left: -0px;">
-                        <h2 style="color: white;font-size: 24px; position: absolute; top: 56px;padding-left:35px;"><b>PIDACC/BN</b></h2>
+                        <h4><img src="assets/images/logo.jpg" alt="" style="margin-top:-2px;height: 40px;">PIDACC/BN</h4>
                     </a>
-
                     <!-- ** Logo End ** -->
                     <!-- ** Menu Start ** -->
                     <ul class="nav">
-
-                        <li class="scroll-to-section"><a href="index.html" class="active">Accueil</a></li>
-                       
+                        <li class="scroll-to-section"><a href="index.html" >Accueil</a></li>
+                        <li class="scroll-to-section">
+                            <a >projets</a>
+                            <ul class="sub-menu">
+                                <li class="scroll-to-section"><a href="composant.html">Composantes</a></li>
+                                <li class="scroll-to-section"><a href="finance.html">Beneficiaires</a></li>
+                                <li></li>
+                            </ul>
+                        </li>
                         <li class="scroll-to-section">
                             <a >Apropos</a>
                             <ul class="sub-menu">
@@ -70,29 +74,26 @@
                                 <li><a href="objectif.html">Objectifs Global</a></li>
                                 <li><a href="plan.html">Plan d'Action</a></li>
                                 <li><a href="nord.html">Zones d'interventions</a></li>
-                                <li class="scroll-to-section"><a href="composant.html">Composantes</a></li>
-                                <li class="scroll-to-section"><a href="finance.html">Beneficiaires</a></li>
 
                                 <li></li>
                             </ul>
                         </li>
-                         <li class="scroll-to-section">
-                            <a href="galerie.html">Galerie</a>
-                        </li>
-                         <li class="scroll-to-section">
-                            <a href="document.html">Documentations</a>
+                        <li class="scroll-to-section">
+                            <a class="active">Documentations</a>
                               <ul class="sub-menu">
                                 <li><a href="document.html">Rapports d'Activités</a></li>
                                 <li><a href="document.html">Les conventions</a></li>
-                                <li><a href="personel.html">Organigramme</a></li>
+                                <li><a href="personel.html">personnel</a></li>
+                                <li><a >Coordonateur</a></li>
+                                
                                 <li></li>
                             </ul>
                         </li>
                         <li class="scroll-to-section"><a href="#contact">Contacts</a></li>
+                      
                        <li class="scroll-to-section">
                                 <div class="main-blue-button"><a href="mailto:pidacc.cameroun@yahoo.fr">contacter nous</a></div>
                             </li>
-
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -105,108 +106,79 @@
 </header>
     <!-- ***** Header Area End ***** -->
 
-<div class="slider">
-  <div class="slide">
-    <img src="assets/images/slide1.jpg" alt="Image 1" preload>
-   
-  </div>
-  <div class="slide">
-    <img src="assets/images/bassin2.jpg" alt="Image 2" preload>
-  </div>
-  <div class="slide">
-    <img src="assets/images/slide2.jpg" alt="Image 3" preload>
-  </div>
-   <div class="slide">
-    <img src="assets/images/slide5.jpeg" alt="Image 3" preload>
-  </div> 
-</div>
-
-
-<div class="container1">
-    <div class="logo1">
-         <img src="assets/images/minep.png" alt="Logo Minepat"  style="height: 80px;width: 150px;border-radius: 20px;margin: auto;margin-top: -80px;position: relative;left:20px;">
-      
-    </div>
-         <h2 style="text-align:center;font-size:16px;margin-top: -80px;"><b>Ministère de l'Économie, de la Planification et de l'Aménagement du Territoire </b></h2>
-
-                   
-    <div class="logo1">
-        <img src="assets/images/symbole.png" alt="Logo République" style="height:70px;width: 80px; border-radius: 12px;margin: auto; margin-top:-80px;">
-     
-    </div>
-  </div>
-
- <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s" style="margin-top: 50px;">
-                        <h2 style="text-align:center;">sauvons <em> le bassin </em>du niger</h2>
-
-                    </div>
-  <div id="about" class="about-us section">
+    <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="assets/images/banner1.jpg" alt="" style="width:400px">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 align-self-center">
+                            <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                                <div class="row">
+                                    <div class="col-lg-12">
+
+                                        <h2>Documents</h2>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                                <img src="assets/images/banner1.jpg" alt="" style="width:320px;height: 165px;border-radius: 10px;">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <div class="section-heading"> 
-                         
-                        <h2>Programme Intégré de Développement <em>et d’Adaptation au Changement Climatique</em> dans le <a href="https://fr.wikipedia.org/wiki/Bassin_du_Niger">Bassin du Niger</a></h2>
-                    </div>
-                    
             </div>
         </div>
     </div>
 
-
-
-</br>
-<div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s" style="margin-top: 20px;">
-                        <h2 style="text-align:center;"> A la<em> une</em>.....</h2>
+ <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="section-heading">
+                        <h2><em>Galerie Photos</em></h2>
                     </div>
-<div class="a-la-une-container">
-  <div class="grid-container">
-    <div class="grid-item category1">
-      <div class="a-la-une-item">
-        <img src="assets/images/gnr.jpeg" alt="Image de l'article 1">
-        <div class="a-la-une-content">
-          <h3> 23/11/2023</h3>
-          <p>Remise des materiels d'entretien</p>
-          <button class="lire-plus">Voir plus</button>
-          <div class="contenu-complet">
-            <p>cérémonie présidée par le Gouverneur de la region du Nord</p>
-          </div>
-        </div>
-      </div>
+                    </div>
+
+
+
+
+
+
+
+<div class="gallery">
+  <div class="photo" data-date="2024-01-30">
+    <div class="photo-description">
+      <h3>Événement du 30 janvier 2024</h3>
+      <p>ceremonie cefac.</p>
     </div>
-    <div class="grid-item category2">
-      <div class="a-la-une-item">
-        <img src="assets/images/don.jpeg" alt="Image de l'article 2">
-        <div class="a-la-une-content">
-          <h3>23 NOV 2023</h3>
-          <p>messures d'accompagnement de la population</p>
-          <button class="lire-plus">Voir plus</button>
-          <div class="contenu-complet">
-            <p>Remise des materiels d'entretien des bas-fonds et des equiments agro pastoraux dans la region du Nord</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="grid-item category1">
-      <div class="a-la-une-item">
-        <img src="assets/images/terrain.jpeg" alt="Image de l'article 3">
-        <div class="a-la-une-content">
-          <h3>inedit</h3>
-          <p>champs de maîs a Ngalbidje</p>
-          <button class="lire-plus">Voir plus</button>
-          <div class="contenu-complet">
-            <p></p>
-          </div>
-        </div>
-      </div>
+    <div class="photo-images">
+      <img src="slide">
+    <img src="assets/images/slide2.jpg" alt="Photo 1">
+      <img src="assets/images/femme.jpeg" alt="Photo 2">
+      <img src="assets/images/slide2.jpg" alt="Photo 3">
+      <!-- Ajoutez autant d'images que nécessaire pour cet événement -->
     </div>
   </div>
+  <div class="photo" data-date="2024-01-28">
+    <div class="photo-description">
+      <h3>Événement du 28 janvier 2024</h3>
+      <p>Description de l'événement du 28 janvier 2024.</p>
+    </div>
+    <div class="photo-images">
+      <img src="assets/images/gnr.jpeg" alt="Photo 4">
+      <img src="assets/images/governeur.jpeg" alt="Photo 5">
+      <!-- Ajoutez autant d'images que nécessaire pour cet événement -->
+    </div>
+  </div>
+  <!-- Ajoutez d'autres événements avec leurs descriptions et images associées -->
 </div>
+
+
+                    
+
+
    
 
     <div id="contact" class="contact-us section">
@@ -218,6 +190,7 @@
                             <div class="col-lg-6 offset-lg-3">
                                 <div class="section-heading">
                                     <h6>Contact Us</h6>
+                                    <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Us</h2>
                                 </div>
                             </div>
                             <div class="col-lg-9">
@@ -306,7 +279,7 @@
 
         var formattedMessage = 'Nom: ' + name + '\n\nPrénom: ' + surname + '\n\nE-mail: ' + email + '\n\nSujet: ' + subject + '\n\nMessage: ' + message;
 
-        var phoneNumber = '237699543736'; // Remplacez par votre numéro de téléphone
+        var phoneNumber = '237656337703'; // Remplacez par votre numéro de téléphone
 
         var url = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=' + encodeURIComponent(formattedMessage);
         window.location.href = url;
@@ -338,8 +311,8 @@
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/imagesloaded.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script src="new.js" async></script>
-    <script src="update.js" async></script>
+    <script src="new.js"></script>
+    <script src="galerie.js"></script>
 
 </body>
 

@@ -1,5 +1,5 @@
 .slider {
-  top: 100px;
+  top: 200px;
   position: relative;
   width: 100%;
   height: 600px;
@@ -243,8 +243,11 @@ tr:nth-child(odd) {
   justify-content: center;
   align-items: center;
   height: auto;
-    position: relative;
-  top: -500px;
+  position: relative;
+  top: -470px;
+  width: 90%;
+  height: 100px;
+  text-align: center;
 }
 
 .logo1 {
@@ -252,8 +255,7 @@ tr:nth-child(odd) {
 }
 
 .logo1 img {
-  max-width: 100%;
-  height: auto;
+ width: 80%;
   
 }
 

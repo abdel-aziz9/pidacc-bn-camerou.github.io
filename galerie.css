@@ -1,0 +1,46 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo {
+  flex: 0 0 calc(33.333% - 20px); /* Réglage pour affichage en 3 colonnes, ajustez selon vos besoins */
+  max-width: calc(33.333% - 20px); /* Réglage pour affichage en 3 colonnes, ajustez selon vos besoins */
+}
+
+@media (max-width: 768px) {
+  .photo {
+    flex: 0 0 calc(50% - 20px); /* En 2 colonnes pour les écrans plus petits */
+    max-width: calc(50% - 20px); /* En 2 colonnes pour les écrans plus petits */
+  }
+}
+
+@media (max-width: 480px) {
+  .photo {
+    flex: 0 0 100%; /* Pleine largeur pour les mobiles */
+    max-width: 100%; /* Pleine largeur pour les mobiles */
+  }
+}
+
+/* Styles pour rendre les images réactives avec une ombre portée et une présentation agréable */
+
+.photo-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.photo-images img {
+  max-width: 100%; /* Assurez-vous que les images restent dans les limites du contenant */
+  height: auto; /* Permet à la hauteur de s'ajuster automatiquement en fonction de la largeur */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ajoute une douce ombre portée aux images */
+  transition: transform 0.2s ease; /* Ajoute une légère transition au survol */
+}
+
+/* Effet lorsque l'utilisateur survole les images */
+.photo-images img:hover {
+  transform: scale(1.05); /* Légère agrandissement au survol */
+}
+
+/* Si vous souhaitez un effet d'ombre portée plus prononcé ou d'autres styles spécifiques, vous pouvez ajuster les valeurs ci-dessus selon vos préférences. */
