@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $("#news-slider4").owlCarousel({
-        items:1.5,
+        items:3,
         itemsDesktop:[1199,3],
         itemsDesktopSmall:[1000,2],
         itemsMobile:[600,1],
