@@ -44,3 +44,52 @@
 }
 
 /* Si vous souhaitez un effet d'ombre portée plus prononcé ou d'autres styles spécifiques, vous pouvez ajuster les valeurs ci-dessus selon vos préférences. */
+
+
+
+
+
+
+
+
+
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#data-table th, #data-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+#pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#pagination button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

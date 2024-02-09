@@ -1,14 +1,14 @@
 .slider {
-  top: 500px;
+  top:380px;
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 480px;
   overflow: hidden;
 }
 
 .slide {
   position: absolute;
-  top: 0;
+  top: ;
   left: 0;
   width: 100%;
   height: 90%;
@@ -237,28 +237,6 @@ tr:nth-child(odd) {
 }
 
 
-
-.container1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  position: relative;
-  top: -470px;
-  width: 90%;
-  height: 100px;
-  text-align: center;
-}
-
-.logo1 {
-  width: 200px;
-}
-
-.logo1 img {
- width: 80%;
   
-}
-
-
 
 

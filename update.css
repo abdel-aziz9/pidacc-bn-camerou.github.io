@@ -2,7 +2,7 @@
 .nav li ul.sub-menu {
     display: none; /* Masque les sous-menus par défaut */
     position: absolute;
-    background-color: #ffffff; /* Couleur de fond du sous-menu (blanc) */
+    background-color: #ffff; /* Couleur de fond du sous-menu (blanc) */
     padding: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre du sous-menu */
     border-radius: 5px; /* Bordures arrondies */
@@ -24,7 +24,7 @@
 }
 
 .nav li ul.sub-menu li a:hover {
-    background-color: #66ff66; /* Couleur de fond de la sous-liste au survol (vert clair) */
+    background-color:#0005; /* Couleur de fond de la sous-liste au survol (vert clair) */
     color: #ffffff; /* Couleur du texte de la sous-liste au survol (blanc) */
 }
 
@@ -92,13 +92,6 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
 /* Styles pour la flèche de déroulement */
 .nav li:has(ul.sub-menu) > a::after {
     content: "\25BE"; /* Utilise une flèche vers le bas comme indicateur */
@@ -135,93 +128,6 @@ a:hover {
 }
 
 
-
-
-
-
-.a-la-une-container {
-  margin-top: 40px;
-}
-
-.grid-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.grid-item {
-  flex: 0 0 400px;
-  padding: 20px;
-  background-color: #f2f2f2;
-}
-
-.a-la-une-item {
-  text-align: center;
-}
-
-.a-la-une-item img {
-  width: 100%;
-  max-height: 300px;
-  object-fit: cover;
-  margin-bottom: 10px;
-}
-
-.a-la-une-item h3 {
-  font-size: 18px;
-  color: #333;
-  margin-bottom: 5px;
-}
-
-.a-la-une-item p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 10px;
-}
-
-.lire-plus {
-  font-size: 14px;
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.lire-plus:hover {
-  text-decoration: underline;
-}
-
-.contenu-complet {
-  display: none;
-}
-
-.category1 {
-  background-color: #e6e6e6;
-}
-
-
-
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.departments {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.departments th, .departments td {
-  padding: 10px;
-}
 
 
 

@@ -40,57 +40,9 @@
     --tx-button: #fff;
     --bg-button: #0059b3;
 }
-/*start dark mode css*/
-.dark-mode {
 
-    /* GENERAL COLOR */
-    --bg-col-1: #121212;
-    --tx-color-1: #fff;
-    //button arrow & archive
-    --tx-button: #fff;
-    --bg-button: #272727;
-    --bg-button-border: #272727;
-    --bg-button-hover: #fff;
-    --tx-button-hover: #272727;
-    --bg-button-focus: #0f0f0f40;
-    //focus-section
-    --tx-focus-section-title: #fff;
-    --bg-focus-section: #121212;
-    --bg-focus-card-overlay: rgba(0, 0, 0, 0.5);
-    --tx-focus-hover: #fff;
-    --bg-focus-card: #272727;
-    --tx-focus-card: #fff;
-    --tx-focus-font-weight: 100;
-    --tx-focus-tag-color-1: #fff;
-    --bg-focus-tag-color-1: #272727;
-    --tx-focus-cat: #272727;
-    --bg-focus-cat: #fff;
-    --tx-focus-tag-a: #fff;
-    --bg-focus-footer: #272727;
-    --tx-focus-footer: #fff;
-    --focus-border-card: 0;
-}
-/* end dark mode css */
-.btn-archive {
-    color: var(--tx-button);
-    background: var(--bg-button);
-    border-color: var(--bg-button-border);
 
-    -webkit-transition: all .3s linear 0s;
-    transition: all .3s linear 0s;
-
-    &:hover {
-        color: var(--tx-button-hover);
-        background-color: var(--bg-button-hover);
-        border-color: var(--bg-button-hover);
-    }
-
-    &:focus {
-        -webkit-box-shadow: 0 0 0 0.25rem var(--bg-button-focus);
-        box-shadow: 0 0 0 0.25rem var(--bg-button-focus);
-    }
-}
-
+ 
 .focus-section {
     background: var(--bg-focus-section);
     font-family: var(--font1);
@@ -329,3 +281,9 @@
 
     }
 }
+
+
+
+
+
+
