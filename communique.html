@@ -66,7 +66,7 @@
                         <li class="scroll-to-section"><a href="index.html">Accueil</a></li>
                        
                         <li class="scroll-to-section">
-                            <a   href="">Apropos</a>
+                            <a >Apropos</a>
                             <ul class="sub-menu">
                                 <li><a href="apropos.html">Programme</a></li>
                                 <li><a href="objectif.html">Objectifs Global</a></li>
@@ -79,7 +79,7 @@
                             </ul>
                         </li>
                          <li class="scroll-to-section">
-                            <a   href="">Galerie</a>
+                            <a >Galerie</a>
                             <ul class="sub-menu">
                                 <li><a href="galerie.html">Photos</a></li>
                                 <li><a href="galerie.html">Videos</a></li>
@@ -87,11 +87,12 @@
                             </ul>
                         </li>
                          <li class="scroll-to-section">
-                            <a href="document.html" class="active">Documentations</a>
+                           <a class="active">Documentation</a>
                               <ul class="sub-menu">
                                 <li><a href="document.html">Rapports d'Activités</a></li>
                                 <li><a href="document.html">Les conventions</a></li>
                                 <li><a href="personel.html">Organigramme</a></li>
+                                <li><a href="communique.html" class="active">Communiqué</a></li>
                                 <li></li>
                             </ul>
                         </li>
@@ -142,6 +143,40 @@
                         <h2><em>Documentations</em></h2>
                     </div>
                     </div>
+
+
+
+
+
+
+
+
+
+
+<table id="data-table">
+    <thead>
+    <tr>
+      <th>date</th>
+      <th>Nom</th>
+      <th>document</th>
+    </tr>
+    </thead>
+    <tbody id="data-body">
+      <!-- Le contenu du tableau sera ajouté dynamiquement ici -->
+    </tbody>
+  </table>
+  <div id="pagination">
+    <button id="prevButton" onclick="showPrev()">Précédent</button>
+    <button id="nextButton" onclick="showNext()">Suivant</button>
+  </div>
+
+
+
+
+
+
+
+
 
 
 
@@ -292,6 +327,7 @@
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/imagesloaded.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="script.js"></script>
     
  
 
