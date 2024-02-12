@@ -100,13 +100,13 @@
 
 
 .slider1{
-  width: 405px;
+  width: 40%;
   height: 300px;
   border-radius: 10px;
   overflow: hidden;
   text-align: right;
   position: absolute;
-  left: 70%;
+  left: 60%;
   top: 100px;
 
 }
